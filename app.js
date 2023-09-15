@@ -35,24 +35,64 @@
 } */
 
 
-function askNumber() {
+/* function askNumber() {
     let userInput = prompt("Enter a number...");
     let number = parseInt(userInput);
 
     let message = "The number must be from one to ten"
     let errorMessage = "Error please enter a valid number!"
 
-    if(number <= 10) {
+    if(number >= 1 && number <= 10) {
         for(let i = 0; i < number; i++) {
             document.write("<img src='./img/cat-1.jpg'/>");
         }
 
-    } else if(number >= 11) {
+    } else if(number === 0 || number >= 11) {
         document.write(message);
     } else {
         document.write(errorMessage);
+    }
+} */
+
+
+function htmlCode() {
+    const numSection = 3;
+
+    const images = [
+        "./img/img1.jpg",
+        "./img/img2.jpg",
+        "./img/img3.jpg"
+    ];
+
+    for(let i = 0; i < numSection; i++) {
+        const htmlSection = `
+            <section>
+                <div images="image-container">
+                <div class="image-section">
+                <img src="${images[i]}" alt="">
+                <div class="img-textbox">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                </div>
+                </div>
+                </div>
+                </section>
+            `;
+
+            document.write(htmlSection);
+
     }
 }
 
 
 
+
+/* function checkPassword() {
+    const correctPassword = "password";
+    let userInput = prompt("Enter Password... ")
+
+    while(userInput === correctPassword) {
+        document.write("Password is Correct!");
+    }
+} */

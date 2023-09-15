@@ -342,3 +342,5 @@
 2023-09-15 11:55:31.102 [warning] [Decorations] CAPPING events from decorations provider vscode.git 485
 2023-09-15 11:55:36.198 [warning] [Decorations] CAPPING events from decorations provider vscode.git 485
 2023-09-15 11:55:41.251 [warning] [Decorations] CAPPING events from decorations provider vscode.git 485
+2023-09-15 12:12:54.819 [warning] [Decorations] CAPPING events from decorations provider vscode.git 485
+2023-09-15 13:30:36.508 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
