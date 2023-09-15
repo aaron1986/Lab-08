@@ -39,7 +39,7 @@ function askNumber() {
     let userInput = prompt("Enter a number...");
     let number = parseInt(userInput);
 
-    let message = "The number must be from one to ten"
+    let message = "The number must be from one to five"
     let errorMessage = "Error please enter a valid number!"
 
     if(number >= 1 && number <= 5) {
